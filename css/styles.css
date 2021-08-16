@@ -74,6 +74,10 @@ h1 {
  
 }
 
+.navbar-brand {
+  margin-left: 1rem;
+}
+
 
 /********** Large devices only **********/
 /*@media (min-width: 1200px) {

@@ -1,7 +1,7 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'Courgette', cursive;;
   padding: 0;
   margin: 0;
 }
@@ -15,7 +15,7 @@ h1 {
 .box {
   border: 3px solid black;
   background-color: #828181;
-  height: 23vh;
+  height: 18vh;
   margin-right: 15px;
   margin-left:  15px;
   margin-bottom: 30px;
@@ -23,6 +23,11 @@ h1 {
   position: relative;
   overflow: hidden;
   padding: 10px;
+}
+
+.box:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .ptitle {
